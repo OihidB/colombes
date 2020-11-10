@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="fr">
+
+
+    <head>
+        <meta charset="utf-8">
+        <title>Les Darons Codeurs : Présentation</title>
+        <meta name="description" content="jeune startup développeurs full-stack colombes 92"> <!--  description du site pour les moteurs de recherche  -->
+        <meta name="author" content="Oihid B."> <!--  auteur du site  -->
+        <link rel="stylesheet" href="css/style.css">
+        <script src="script.js"></script>
+    </head>
+
+
+    <body>
+        <h1 id="top">Les Darons Codeurs</h1>
+        <button onclick="window.location.href = 'https://fr.w3docs.com/';">Cliquez Ici</button>
+        <p>Nous sommes une jeune StartUp basée dans la jolie commune de Colombes. 
+            <br>  <!-- saut de ligne -->
+            Notre équipe est constituée de jeunes développeurs aguéris avec au moins 6 ans d'expérience dans le métier du digital.
+            <br>
+            Nous attendons vos demandes avec impatience !
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            <br>
+            nihil commodi aut quisquam at nostrum. 
+            <br>
+            Consequuntur dolores, harum porro tenetur facilis iste quos incidunt libero doloremque officia esse ullam blanditiis.</p>
+            <hr>  <!-- changement thématique (barre de séparation) -->
+
+        <blockquote cite="https://fr.wiktionary.org/wiki/un_tiens_vaut_mieux_que_deux_tu_l%E2%80%99auras">  <!-- Balise blockquote pour la citation et le cite= " " pour la source  -->
+                <p>Un tiens vaut mieux que deux tu l'auras</p>
+                <footer>Jean De La FONTAINE, <cite>Le Petit Poisson Et Le Pécheur</cite></footer> <!--  en footer le nom de l'auteur de la citation et la balise cite pour la source  -->
+        </blockquote> 
+
+        <figure> <!--  pour une image interne  -->
+            <a href="https://www.youtube.com/watch?v=k8HTMNOdPOc" target="_blank"><img src="pics/fontaine.png"/></a> 
+                  <!-- balise orpheline img pour une image et le src= pour la source  -->
+                <figcaption>Le renard et la Cigogne</figcaption> <!-- légende de l'image  -->
+        </figure>
+
+            
+        <pre>  <!-- Bloc prédéfinit -->
+Historique de la société :
+----------------------------------------
+Fin 2019    Dépots des statuts
+Mi 2020     Confinement
+Oct 2020    Lancement de la structure
+Janv 2021   Objectif = 200 000 €  
+        </pre>
+
+            <h2>Présentation</h2>
+                <dl>  <!--  descriptions sous la forme d'une liste de paires associant des termes (fournis par des éléments <dt>) et leurs descriptions ou définitions (fournies par des éléments <dd>) -->
+                    <dt>Graphisme</dt>
+                    <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit excepturi cumque pariatur fugit amet voluptate, perferendis earum nobis temporibus? Quod delectus deleniti rem, cupiditate veniam quasi itaque tempora id.</dd>
+                    <dt>Développement</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima doloremque voluptatibus eum ducimus, quaerat non rerum veritatis minus, tenetur cumque omnis eveniet et soluta reprehenderit quibusdam adipisci culpa nemo est?</dd>
+                    <dt>Maintenance</dt>
+                    <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus tempora, dignissimos tempore veritatis ratione deserunt accusantium, facere praesentium et nesciunt commodi neque eveniet accusamus asperiores esse? Esse quisquam reiciendis accusantium.</dd>
+                </dl>
+
+                <details>  <!--  <details> est utilisé comme un outil permettant de révéler une information. Un résumé ou un intitulé peuvent être fournis grâce à un élément <summary>  -->
+                    <summary>En savoir plus </summary>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis quasi distinctio quae, quis mollitia? Pariatur iure itaque molestiae placeat eius aspernatur, perspiciatis ullam mollitia nihil, labore facilis corrupti ipsam.</p>
+                    
+                </details>
+
+            
+            <h2>Services</h2>
+            <ol>  <!--  Order liste - liste ordonée  -->
+                <li>Graphisme
+                    <ol>
+                        <li>3 Dessinateurs
+                            <ul>  <!--  Unorder liste - liste non-ordonée  -->
+                                <li>Photoshop</li>
+                                <li>llustrator</li>
+                            </ul>
+                        </li>
+                        <li>1 Ergonome</li>
+                        <li>1 Photographe</li>
+                    </ol>
+                </li>
+                <li>Dévoloppement</li>
+                <li>Maintenance</li>
+            </ol>
+
+            <p>Et bientôt (Mars 2021) les services suivants :</p>
+            <ol start="4">  <!--  démarer une liste à partir de -->
+                <li>Comptabilité</li>
+                <li>Sites clé en main "Click And Collect"</li>
+            </ol>
+
+            <h2>Equipe</h2> 
+
+                <p>Notre équipe est constituée de garçons et de filles<sup>1</sup> dont l'expérience en <em>développement web et en <strong>conseil digital</strong> n'est plus à faire.
+                <!-- <sup> est utilisé, pour des raisons typographiques, afin d'afficher du texte en exposant, plus haut et généralement plus petit  -->
+                <!-- <em> afin de marquer un texte sur lequel on veut insister-->
+                <!-- <strong> indique que le texte a une importance particulière-->
+                <!-- <mark> représente un texte marqué ou surligné à cause de sa pertinence-->
+                <br>
+                Tou.te.s ont suivi leur cours dans la prestigieuse école Garamont et ont obtenu leur titre <abbr title="Développeur Web et Web Mobile">DWWM</abbr>
+                <br> <!--  La balise <abbr> indique une abréviation ou un acronyme  -->
+                Notre crédo : <mark>"Quand on veut, on peut."</mark></em></p>
+                
+                <p>Venez nous rencontrer lors de notre prochaine convention de New York, le <time datetime="2021-02-14T20:30:00-06:00">14 Février 2021 à 20H30</time></p>
+                <!--  <time> permet de représenter une période donnée. Cet élément permet d'utiliser l'attribut datetime afin de traduire la date ou l'instant dans un format informatique  -->
+
+                <h3>développeurs</h3>
+
+                    <table>
+                        <caption>Tatbleau 1 : Nos développeurs</caption>
+                        <thead>
+                            <tr>
+                                <th>Prénom</th>
+                                <th>Compétences</th>
+                                <th>Expérience</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jérémy</td>
+                                <td>Python, Electronique</td>
+                                <td>5 ans</td>
+                            </tr>
+                            <tr>
+                                <td>Kévin</td>
+                                <td>HTML, Css, Js, PHP, My SQL</td>
+                                <td>3 ans</td>
+                            </tr>
+                            <tr>
+                                <td>Hakim</td>
+                                <td>Java 2EE, Scrum, UML</td>
+                                <td>2 ans</td>
+                            </tr>
+                            <tr>
+                                <td>Mohamed</td>
+                                <td>PrestaShop, C#, .NET</td>
+                                <td>5 ans</td>
+                            </tr>
+                            
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="2">TOTAL</th>
+                                <th>15 ans</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    
+
+                <h3>Commerciaux</h3>
+
+                    <h4>Europe</h4>
+                    <table>
+                        <caption>Tatbleau 2 : Nos commerciaux en Europe</caption>
+                        <thead>
+                            <tr>
+                                <th>Prénom</th>
+                                <th>Zone</th>
+                                <th>CA (K€)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Samir</td>
+                                <td>Scandinavie, Allemagne</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>Nathan</td>
+                                <td>Grèce, Italie</td>
+                                <td>17.5</td>
+                            </tr>
+                            <tr>
+                                <td>Jean Marc</td>
+                                <td>Espagne, Portugal</td>
+                                <td>22.8</td>
+                            </tr>
+                            <tr>
+                                <td>Asma</td>
+                                <td>Roumanie, Hongrie, Croatie</td>
+                                <td>17.9</td>
+                            </tr>
+                            
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="2">TOTAL</th>
+                                <th contenteditable="true">à calculer</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <h4>Asie</h4>
+
+                    <table>
+                        <caption>Tatbleau 3 : Nos commerciaux en Asie</caption>
+                        <thead>
+                            <tr>
+                                <th>Prénom</th>
+                                <th>Zone</th>
+                                <th>CA (K€)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Rémy</td>
+                                <td>Indonésie</td>
+                                <td>15.6</td>
+                            </tr>
+                            <tr>
+                                <td>Oihid</td>
+                                <td>Thaillande</td>
+                                <td>12.6</td>
+                            </tr>
+                            <tr>
+                                <td>Thomas</td>
+                                <td>Japon</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>Emma</td>
+                                <td>Chine, Corée du Nord</td>
+                                <td>42.3</td>
+                            </tr>
+                            
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="2">TOTAL</th>
+                                <th contenteditable="true">à calculer</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <!-- <table> permet de représenter un tableau de données 
+                        <caption> représente la légende (ou le titre) d'un tableau 
+                        <thead> définit un ensemble de lignes qui définit l'en-tête des colonnes d'un tableau
+                        <tbody> permet de regrouper un ou plusieurs éléments <tr> afin de former le corps d'un tableau HTML (<table>) 
+                        <tr> définit une ligne de cellules dans un tableau. Une ligne peut être constituée d'éléments <td> (les données des cellules) et <th> (les cellules d'en-têtes)
+                        <td> définit une cellule d'un tableau qui contient des données
+                        <th> définit une cellule d'un tableau comme une cellule d'en-tête pour un groupe de cellule. 
+                        <tfoot> permet de définir un ensemble de lignes qui résument les colonnes d'un tableau. -->
+                            
+                <h3>Graphistes</h3>
+
+                <table>
+                    <caption>Tableau 4 : Nos Graphistes</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Graphistes certifiés Adobe</th>
+                        </tr>
+                        <tr>
+                            <th>Prénom</th>
+                            <th>Compétences</th>
+                            <th>Expérience</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Alex</td>
+                            <td>PhotoShop et Gimp</td>
+                            <td>3 ans</td>
+                        </tr>
+                        <tr>
+                            <td>Aymane</td>
+                            <td>Illustrator et XD</td>
+                            <td>2 ans</td>
+                        </tr>
+                        <tr>
+                            <td>Aymen</td>
+                            <td>Premiere</td>
+                            <td>2 ans</td>
+                        </tr>
+                        <tr>
+                            <td>Lesly</td>
+                            <td>Paint.NET et Paintbrush</td>
+                            <td>11 ans</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="2">TOTAL</th>
+                            <th>18 ans</th>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                
+
+            <h2>Localisation</h2>
+
+            <div>  <!-- <a> (pour ancre ou anchor en anglais) définit un hyperlien vers un autre endroit de la même page ou vers une autre page sur le Web -->
+                <a href="#top">Début de Page</a> <!-- pour l'id du h1-->
+                |<a href="https://www.google.fr" target="_blank">Google </a>
+                |<a href="mailto:oihid.remy@asma.org?subject=infos&body=HelloWorld!">Nous écrire</a>  <!-- pour envoyer un mail -->
+                |<a href="http://docshare03.docshare.tips/files/25359/253596090.pdf"> Memento HTML5</a>  <!-- pour ouvrir un PDF en ligne -->
+            </div>
+
+            <hr>
+            <p>
+                <small>1 : La parité n'est malheureusement pas respectée</small>
+                <!-- <small> permet de représenter des commentaires ou des textes à écrire en petits caractères -->
+            </p>
+
+    </body>
+
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+background-color: bisque;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: radial-gradient(silver, white, grey);
+background: url(../pics/soleil.png) no-repeat top right, url(../pics/avion.png) no-repeat bottom right, radial-gradient(silver, white, grey);
+margin-bottom: 75px;
+}
+
+h1,h2,h3,h4 {
+font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    color: rgb(255,0,0);
+    text-align: center;
+    font-size: 100px;
+}
+
+#top {
+    text-shadow: 5px 5px 7.5px black;
+}
+
+pre {
+    color: rgb(0,0,255);
+    border-left: blue 2px solid;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+dt {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: .5rem 0;
+}
+
+dd, p {
+    text-align: justify;
+}
+
+figure img {
+    border-radius: 50%;
+    border-radius: 2em 3em 4em 5em;
+    border-radius: 10% 20%;
+    box-shadow: 10px 10px 10px black, -10px -10px 10px gray ;
+    margin: 20px;
+   
+}
+ table {
+     width: 100%;
+ }
+table, th, td {
+    border: black solid 1px;
+}
+
+tbody tr:nth-child(even){
+    background-color: #ddd;
+}
+
+td {
+    padding: 10px;
+}
+
+tbody tr:hover { 
+    background-color: gold;
+    cursor: pointer;
+}
+
+thead tr, tfoot tr {
+    background-color: rgb(61, 61, 61);
+    color: honeydew;
+}
+
+/*tbody tr td:nth-child(2) {
+    text-align: center;
+}
+tbody tr td:last-child {
+    text-align: right;
+} */
+
+table:first-of-type td:last-child {
+    text-align: right;
+}
+table:first-of-type td:nth-child(2){
+    text-align: center;
+}
+
+
+li ol {
+    list-style-type: upper-roman;
+} 
+ul {
+    list-style-image: url(../pics/puce.png);
+}
